@@ -3,6 +3,12 @@
   "version": "1.2.0",
   "description": "WordPress plugin that leverages SharedCount.com API to quickly retrieve, cache, and display various social sharing counts.",
   "private": false,
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "compile": "gulp default",
+    "watch": "gulp watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaredatch/shared-counts.git"
