@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: osDXP Shared Counts
+ * Plugin Name: Shared Counts (osDXP)
  * Plugin URI:  https://sharedcountsplugin.com
  * Description: Social sharing buttons that look great and keep your site loading fast.
  * Author:      Bill Erickson & Jared Atchison - osDXP version by CrowdFavorite
@@ -44,7 +44,7 @@ define( 'SHARED_COUNTS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SHARED_COUNTS_URL', plugin_dir_url( __FILE__ ) );
 
 // Update URL.
-define( 'SHARED_COUNTS_UPDATE_URL', '@TODO: ADD OSDXP.ORG URL' );
+define( 'SHARED_COUNTS_UPDATE_URL', 'https://osdxp.org/osdxp-shared-counts.json' );
 
 // Base name.
 define( 'SHARED_COUNTS_BASE', plugin_basename( __FILE__ ) );
@@ -53,7 +53,7 @@ define( 'SHARED_COUNTS_BASE', plugin_basename( __FILE__ ) );
 define( 'SHARED_COUNTS_FILE', __FILE__ );
 
 // Plugin name.
-define( 'SHARED_COUNTS_NAME', 'osDXP Shared Counts' );
+define( 'SHARED_COUNTS_NAME', 'Shared Counts (osDXP)' );
 
 // Plugin slug.
 define( 'SHARED_COUNTS_SLUG', 'osdxp-shared-counts' );
