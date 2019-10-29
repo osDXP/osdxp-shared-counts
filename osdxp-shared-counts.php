@@ -44,7 +44,7 @@ define( 'SHARED_COUNTS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SHARED_COUNTS_URL', plugin_dir_url( __FILE__ ) );
 
 // Update URL.
-define( 'SHARED_COUNTS_UPDATE_URL', 'https://osdxp.org/wp-content/module-update-info/osdxp-shared-counts.json' );
+define( 'SHARED_COUNTS_UPDATE_URL', 'https://osdxp.org/wp-content/modules/osdxp-shared-counts.json' );
 
 // Base name.
 define( 'SHARED_COUNTS_BASE', plugin_basename( __FILE__ ) );

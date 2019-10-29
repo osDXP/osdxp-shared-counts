@@ -2,14 +2,16 @@
 
 ![Plugin Version](https://img.shields.io/wordpress/plugin/v/shared-counts.svg?style=flat-square) ![Total Downloads](https://img.shields.io/wordpress/plugin/dt/shared-counts.svg?style=flat-square) ![Plugin Rating](https://img.shields.io/wordpress/plugin/r/shared-counts.svg?style=flat-square) ![WordPress Compatibility](https://img.shields.io/wordpress/v/shared-counts.svg?style=flat-square) ![License](https://img.shields.io/badge/license-GPL--2.0%2B-red.svg?style=flat-square)
 
-**Contributors:** jaredatch, billerickson  
-**Tags:** sharing, share buttons, social buttons, share counts, social, facebook, linkedin, pinterest, twitter  
-**Requires at least:** 4.6  
-**Tested up to:** 5.2  
-**Stable tag:** 1.4.0  
-**Requires PHP:** 5.6
-**License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
+**This release is refactored to be _osDXP compatible_ by CrowdFavorite**
+
+- **Contributors:** jaredatch, billerickson
+- **Tags:** sharing, share buttons, social buttons, share counts, social, facebook, linkedin, pinterest, twitter
+- **Requires at least:** 4.6
+- **Tested up to:** 5.2
+- **Stable tag:** 1.4.0
+- **Requires PHP:** 5.6
+- **License:** GPLv2 or later
+- **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 Shared Counts is a WordPress social media share buttons plugin. Sharing buttons increase traffic and engagement by helping readers share your posts and pages to their friends on social media.
 

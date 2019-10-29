@@ -21,7 +21,7 @@ class Shared_Counts_Admin {
 
 		// Plugin settings.
 		add_action( 'admin_init', [ $this, 'settings_init' ] );
-		add_filter( 'osdxp_add_module_settings_page', [ $this, 'settings_add' ] );
+		add_action( 'admin_menu', [ $this, 'settings_add' ] );
 		add_action( 'admin_enqueue_scripts', [ $this, 'settings_assets' ] );
 		add_filter( 'plugin_action_links_' . SHARED_COUNTS_BASE, [ $this, 'settings_link' ] );
 		add_filter( 'plugin_row_meta',  [ $this, 'author_links' ], 10, 2 );
@@ -85,18 +85,8 @@ class Shared_Counts_Admin {
 	 *
 	 * @since 1.0.0
 	 */
-	public function settings_add($pages) {
-		$page = [
-			'function' => [$this, 'settings_page'],
-			'menu_slug'=> 'shared_counts_options',
-			'page_title'=> __( 'Shared Counts Settings', 'shared-counts' ),
-			'menu_title'=> __( 'Shared Counts', 'shared-counts' ),
-			'type' => 'submenu',
-			'network' => 'no' //yes for network only, both for both, other value or missing to only show on wp-admin dashboard
-		];
-		$pages[] = $page;
-
-		return $pages;
+	public function settings_add() {
+		add_options_page( __( 'Shared Counts Settings', 'shared-counts' ), __( 'Shared Counts', 'shared-counts' ), 'manage_options', 'shared_counts_options', [ $this, 'settings_page' ] );
 	}
 
 	/**
